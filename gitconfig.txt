@@ -1,0 +1,9 @@
+git config --global user.name varraschin
+git config --global user.email marcelojuniber@gmail.com
+
+-- Criar o Proejeto
+npx create-expo-app@latest EtecBus --template blank
+
+npx expo install expo-location react-native-webview
+
+npx expo start --tunnel
